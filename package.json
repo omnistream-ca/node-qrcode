@@ -11,7 +11,7 @@
     "qrcode",
     "barcode"
   ],
-  "main": "./lib/index.js",
+  "main": "./lib/browser.js",
   "browser": {
     "./lib/index.js": "./lib/browser.js",
     "./lib/utils/buffer.js": "./lib/utils/typedarray-buffer.js"
